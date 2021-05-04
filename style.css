@@ -1,0 +1,211 @@
+/*
+Theme Name: Desafio-WP
+Author: Jessica Lyra
+Description: tema constrúido do zero para avaliação de desafio
+*/
+body {
+    margin:0 auto;
+    font-family: "Circular Spotify Tx T Black";
+    
+}
+
+/*===HEADER===*/
+
+
+.menu {
+    background: #000000E6 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding:10px 140px;
+    
+}
+
+.menu a {
+    text-align: center;
+    font-size:19px;
+    letter-spacing: 0.57px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.nav-link{
+    padding-left:150px;
+}
+ .itens ul {
+    margin-left:20px;
+} 
+/*===destaque===*/
+.destaque {
+    color:#fff;
+    padding-top: 228px;
+    padding-left: 140px;
+    padding-bottom: 228px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.destaque .info-1 {
+    background-color:#fff;
+    color:#5A5A5A;
+    width:128px;
+    font: normal normal medium 18px/100px;
+    text-align:center;
+    opacity:1;
+    border-radius:3px;
+}
+
+.info-2 {
+    border:1px solid #fff;
+    width:128px;
+    font: normal normal medium 18px/100px;
+    text-align:center;
+    margin-left: 10px;
+    opacity:1;
+    border-radius:3px;
+}
+
+ .destaque h1 {
+    font-size: 100px;
+    font-weight: 900;
+    width:812px;
+}
+
+.destaque button {
+    background-color: red;
+    color:#fff;
+    width: 310px;
+    height: 64px;
+    border: none;
+    border-radius:3px
+}
+
+/*LISTA POR CATEGORIA*/
+section {
+    background-color:#000;
+    padding-left: 140px;
+    padding-top: 40px;
+    padding-bottom:40px;
+
+}
+section .titulo-categoria {
+    color:red;
+    font-size:40px;
+}
+#owl-demo {
+    text-align:left;
+}
+
+#owl-demo .item {
+    width: 248px;
+    margin-right:30px;
+    background-color:#000;
+    color:#fff;
+}
+#owl-demo .item img {
+    border-radius:3px;
+    width: 248px;
+    height:387px;
+    object-fit: cover;
+}
+
+#owl-demo .info-carousel {
+    border:1px solid #fff;
+    width:128px;
+    font: normal normal medium 18px/100px;
+    text-align:center;
+    opacity:1;
+    border-radius:3px;
+    margin-top: 27px;
+    margin-bottom:6px;
+}
+#owl-demo h2 {
+    font-size:30px;  
+}
+
+#owl-demo .item a, #owl-demo .item a:hover {
+    text-decoration: none;  
+    color:#fff;
+}
+.customNavigation{
+  text-align: center;
+}
+
+footer {
+    background-color: #151515;
+    padding-left: 141px;
+    padding-top:105px;
+    padding-bottom:187px;
+    color:#fff;
+}
+
+footer .ano {
+    padding-top:33px;
+    font: normal normal medium 18px/100px ;
+    letter-spacing: 0.54px;
+}
+
+/*RESPONSIVO*/
+@media (min-width:320px) and (max-width:480px){ /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+    
+    .destaque{
+        padding-top:174px;
+        padding-left: 28px;
+        padding-bottom: 155px;
+    }
+   
+    .destaque h1 {
+            font-size: 40px;
+            font-weight: 900;
+            width:326px;
+            padding-top:11px;
+        }
+    .destaque .info-1, .destaque .info-2 {
+            width:110px;
+            font-size:12px;
+            padding: 6px 36px 5px 36px; 
+    }    
+    .destaque button {
+            width: 182px;
+            height: 38px;
+            font-size:12px;
+            margin-top:11px;
+        }  
+    section {
+        padding-left:29px;
+    }
+    
+    section .titulo-categoria {
+        font-size: 23px;
+    }
+    #owl-demo .item {
+        width:148px;
+        margin-right: 2px;
+        
+    }    
+    #owl-demo .item img {
+        width: 149px;
+        height:232px;   
+    }
+    #owl-demo .info-carousel {
+        width:111px;
+        font: normal normal medium 12px/100px;
+        text-align:center;
+        opacity:1;
+        border-radius:3px;
+        margin-top: 27px;
+        margin-bottom:10px;
+    }
+    #owl-demo h2 {
+        font-size:20px; 
+    }
+
+    footer {
+        padding-left: 49px;
+        padding-bottom: 162px;
+    }
+    footer .logo-rodape {
+
+        margin-left:100px;
+    }
+    footer .ano {
+        font-size: 12px;
+    }
+}   
